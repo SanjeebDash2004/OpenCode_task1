@@ -1,0 +1,91 @@
+QUESTION 1 : Difference between Git & Github?
+
+
+Answer: As far as their functions are considered, Git and Github are totally different from
+each other though they sound similiar.
+
+Git :
+
+1. Git is a command line tool or a version control tool which is installed locally on our system.
+It keeps track or record of all the changes brought to our code.
+
+2. Git is helpful for increasing productivity and efficiency of work, since again and again 
+copying the code and sending them to the fellow coders is not required when using git.
+
+3.Git can exist without GitHub as there are other such softwares like Atlassian Bucketlist or 
+GitLab. 
+
+4.Git is an open-source and freely distributed tool.
+
+GitHub :
+
+1. GitHub is a Web based Hosting Service(owned by microsoft) which is used to store all the git
+repositories(folders) in one place, so that different coders can collab on the same project using
+GitHub.
+
+2. Github is a hosting platform where projects and collaborations are available.
+
+3. On the other hand , Github cannot be used without using Git.
+
+4. GitHub works on licensing model(premium model and free).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTION 2 : Explain very briefly any 5 basic git commands.
+
+Answer: These 5 commands were used during the set-up process of Git. These are :-
+
+$ git --version
+-to display current version of Git that user is using.
+
+$ git config --global user.name "Your_User_Name"
+-to set the username of the User in Git. It is used while comitting 
+files in github.It is not necessary that Git username and GitHub 
+username should be same.
+
+$ git config --global user.email "Your email"
+-to set the email-address of user in git. it is necessary that the email 
+address of the user should be same in both git and github.
+
+$ git init
+-it is used to create a new github repository. 
+
+$ git add filename
+-A code in the current directory can be added using this command.
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTION 3: How to make a Pull Request?
+
+Answer: There are two repositories - Remote repository on the web and a local repository on 
+our system. In Git bash , the folder that we want to make changes or use is used as master 
+by reference. The process of obtaining codes from remote repository to our master folder is 
+called fetching. The process of sending codes from master folder to Local repository is called
+Merging. For these two process - $ git fetch 
+						   $ git merge  commands are used
+for making a pull request - $ git pull (link/url) is used.
+git pull command is basically a combination of git fetch and git merge commands.
+
