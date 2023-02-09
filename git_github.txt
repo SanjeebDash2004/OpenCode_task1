@@ -85,7 +85,7 @@ our system. In Git bash , the folder that we want to make changes or use is used
 by reference. The process of obtaining codes from remote repository to our master folder is 
 called fetching. The process of sending codes from master folder to Local repository is called
 Merging. For these two process - $ git fetch 
-						   $ git merge  commands are used
+				 $ git merge  commands are used
 for making a pull request - $ git pull (link/url) is used.
 git pull command is basically a combination of git fetch and git merge commands.
 
